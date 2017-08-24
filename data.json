@@ -1,0 +1,37 @@
+
+		
+		{
+
+		"Welcome": "Welcome To Nagesh Koritala Portfolio.",
+		"BackGround": "Background",
+		"Programmer" :"Programmer",
+		"Traveller" : "Traveller",
+		"Thinker": "Thinker",
+		"Introduction": "My Name is Nagesh koritala. I am a Front-End Developer. I have an extensive knowledge in Front-end technologies like HTML, CSS, Javascript, Angular.JS, Bootstrap and many more.",
+		"WorkDetails": "Work Details:",
+		"Education" :"University:",
+		"School" : " Sathayabama University.",
+		"Degree": "Degree:",
+		"Electonics and communication" : "Electonics and communication",
+		"Graduation": "Pass Out Year:",
+		"PassOutYear": "MAY 2008",
+		"Address": "3420 s cottage grove, Chicago, 60616",
+		"Hobbies" : "Go for a long drive, hike, meet new people and explore new places. One day I want to travel the world.",
+		"clientdetails" : "Clients I have worked for:",
+		"Fannie": "images/Fannie Mae.png",
+		"Gyro": "images/Gyro.png",
+		"Rockwell": "images/Rockwell.Automation.jpg",
+		"alt1":"Gyro",
+		"alt2":"Rockwell Automation",
+		"alt3":"Netgear",
+		"Responsibility": "Responsibilities:",
+		"clientName1" : "Gyro:",
+		"clientName2" : "Rockwell Automation:",
+		"clientName3" : "Netgear:",
+		"lists" : ["Responsible for writing utility classes, UI development using CSS3, HTML5, JavaScript, AJAX , Angular.","Developed and improved application using MVC Framework Angular, and Bootstrap.", "Used advanced level of HTML5, JavaScript, CSS3 and pure CSS layouts (table less).", "Co-ordinate with UX designers and develop static content using front end with", "Involved in Requirement gathering phase in order to gather the requirements from the business users and dealing with UX team to continuously accommodate changing users requirements", "Involved in using Git, for project management and version management.", "Developed Functional Requirement Document based on users’ requirement.","Done testing for cross browser functionalities so as to confirm the application consistency across various browsers.","Experienced in working in AGILE based development environment and participating in Scrum sessions.", "Complete Knowledge of health care and Finance domain."]
+		
+		}
+	
+
+			
+		

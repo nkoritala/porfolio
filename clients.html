@@ -1,0 +1,57 @@
+<div class="text-center">
+	<h1>{{aboutme.clientdetails}}</h1>
+
+	<div class="container animated infinite pulse">
+		<div class="row" id="imgprop">
+			
+				<a class="focus pic" ng-href="http://www.straticehealthcare.com/" target="_blank">
+					<img ng-src="{{aboutme.stratice}}" alt="{{aboutme.alt1}}" class="img-responsive"/>
+				</a>
+			
+		</div>
+		<div class="row" id="imgprop">
+			
+				<a  class="focus pic" ng-href="https://www.chase.com/info" target="_blank">
+					<img ng-src="{{aboutme.chase}}" alt="{{aboutme.alt2}}" class="img-responsive"/>
+				</a>
+				
+		</div>
+		<div class="row" id="imgprop">
+			
+				<a class="focus pic" ng-href="http://adp.com/" target="_blank">
+					<img ng-src="{{aboutme.adp}}" alt="{{aboutme.alt3}}" class="img-responsive"/>
+				</a>			
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div ng-repeat="image in images">
+		<h3>{{image.clientName}}</h3>
+		<h4><p><dt>{{image.workdetail}}</dt></p></h4>
+	</div>
+
+	<div>
+			<h3 ng-click="Responsibility = !Responsibility"><a href=""><u>{{aboutme.Responsibility}}</u></a></h3>
+				
+					<h4>
+						<p>
+						<ul class="animated lightSpeedIn" ng-show="Responsibility">
+							<li ng-repeat="list in aboutme.lists"><dt>{{list}}</dt></li>
+						</ul>
+						</p>
+					</h4>	
+			</h4>
+			</a>
+	</div>
+
+
+	<div class="container text-right">
+			<p><a href="#/contactme" class="btn btn-lg btn-primary animated infinite pulse" role="button">Contact Me</button></a></p>
+	</div>
+
+
+
+
+
+			

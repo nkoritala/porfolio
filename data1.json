@@ -1,0 +1,54 @@
+[{
+    "url" : "images/camping.jpg",
+    "img1" :"images/camping.jpg",
+    "clientName" : "Gyro:",
+    "workdetail" : "Guide and consult application design, utilizing a thorough understanding of applicable technology, tools and existing designs. Orchestrate technical support incorporating Scrum methodology for updates to business teams and project managers. "
+     
+     },{
+    
+    "url" : "images/grad.jpg",
+    "img1" :"images/grad.jpg",
+    "clientName" : "Rockwell Automation:",
+    "workdetail" : "Developed cross-browser/platform HTML, CSS, and JavaScript to match design specs for complex page layouts while adhering to code standards."
+
+
+    },{
+      	
+    "url" : "images/hiking.jpg",
+    "img1":"images/hiking.jpg",
+    "clientName" : "Netgear",
+    "workdetail" :"Reviewed design of original application, analyzed appropriate UI and recommended technical improvements for application. Used web technologies and design programming within IT frameworks to create, edit, and improve applications for customer use.",
+    "lists" : ["Responsible for writing utility classes, UI development using CSS3, HTML5, JavaScript, AJAX , Angular.","Developed and improved application using MVC Framework Angular, and Bootstrap.", "Used advanced level of HTML5, JavaScript, CSS3 and pure CSS layouts (table less).", "Co-ordinate with UX designers and develop static content using front end with", "Involved in Requirement gathering phase in order to gather the requirements from the business users and dealing with UX team to continuously accommodate changing users requirements", "Involved in using Git, for project management and version management.", "Developed Functional Requirement Document based on users’ requirement.","Done testing for cross browser functionalities so as to confirm the application consistency across various browsers.","Experienced in working in AGILE based development environment and participating in Scrum sessions."],
+    "SeeMore" : "See More" 
+
+
+    },{
+      	
+    "url" : "images/professnal.jpg",
+    "img1":"images/professnal.jpg"
+    },{
+      	
+    "url" : "images/waterfall.jpg",
+    "img1":"images/waterfall.jpg" 
+    },{
+      	
+    "url" : "images/waterpark.jpg",
+    "img1":"images/waterpark.jpg" 
+    },{
+      	
+    "url" : "images/chicago.jpg",
+    "img1":"images/chicago.jpg" 
+    },{
+      	
+    "url" : "images/office.jpg",
+    "img1":"images/office.jpg" 
+    },{
+      	
+    "url" : "images/biking.jpg",
+    "img1":"images/biking.jpg" 
+    },{
+      	
+    "url" : "images/motercycling.jpg",
+    "img1":"images/motercycling.jpg" 
+        
+}]

@@ -1,0 +1,60 @@
+<div class="container">
+	<div class="text-center">
+		<p><h1>{{aboutme.BackGround}}</h1></p>
+	
+		<div>
+			<button ng-click="Introduction = !Introduction" class="btn btn-lg btn-primary animated flip" role="button">Introduction</button>
+			<p><h4 class="animated rollIn" ng-show="Introduction">{{aboutme.Introduction}}</h4></p>
+		</div>
+		
+		<div>
+			<button ng-click="Education = !Education" class="btn btn-lg btn-primary animated flip" role="button">Education</button>
+			<p>
+				<h4 class="animated rollIn" ng-show="Education">{{aboutme.Education}}<a href="http://www.kent.edu/" target="_blank"><u> {{aboutme.School}} </u> </a><br>
+					{{aboutme.Degree}} {{aboutme.AppliedMathematics}}<br>
+					{{aboutme.Graduation}} {{aboutme.PassOutYear}}<br>
+					{{aboutme.Address}}
+				</h4>
+			</p>
+		</div>
+
+		<div>
+			<button ng-click="Hobbies = !Hobbies" class="btn btn-lg btn-primary animated flip" role="button">Hobbies</button>
+			<p><h4 class="animated rollIn" ng-show="Hobbies">{{aboutme.Hobbies}}</h4></p>
+		</div >
+
+		<div>
+			<button ng-click="mygal = !mygal" class="btn btn-lg btn-primary animated flip" role="button">My Gallery </button>
+			<p>
+				<h4 ng-show="mygal">
+					<div id="myimgprop" ng-repeat="image in images" class="gallery gallery1" >
+						<a ng-click="openLightboxModal($index)">
+							<img  ng-src="{{image.img1}}" alt="PhotoGallary" class="img-thumbnail img-responsive"/>
+						</a>
+					</div>
+				</h4>
+			</p>
+		</div>
+
+		<div>
+			<p><a ng-href="#/clients" class="btn btn-lg btn-primary animated flip" role="button">Clients</a></p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+

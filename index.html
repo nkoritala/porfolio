@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<HTML>
+	<title>14357</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<!--bootstrap-->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<!-- Include Font Awesome Stylesheet in Footer -->
+  	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  	<!--CSS files-->
+  	<link rel="stylesheet" type="text/css" href="css/main.css">
+  	<link rel="stylesheet" type="text/css" href="css/home.css">
+
+  	<!--CSS Animation-->
+  	<link rel="stylesheet" href="lib/animate.min.css">
+  	<link rel="stylesheet" type="text/css" href="lib/leaflet.css">
+  	<!--angular-->
+  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+
+	<!--Bootstrap for Modelbox -->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.js"></script>
+	<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.3.2.js"></script>
+	<script src="lib/angular-bootstrap-lightbox.js"></script>
+	<link rel="stylesheet" href="lib/angular-bootstrap-lightbox.css">
+
+	<!-- google map-->
+	<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/1.2.4/angular-google-maps.min.js"></script>
+	<script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/1.2.4/angular-google-maps.js"></script>
+
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
+	<script src="lib/angular-leaflet-directive.min.js"></script>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css">-->
+	<script type="text/javascript" src="lib/leaflet.js"></script>
+	<script src="lib/angular-leaflet-directive.min.js"></script>
+
+	<!--start of body-->
+	<body ng-app="MyApp">
+	
+		<header>
+			<div class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+	      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+	        				<span class="icon-bar"></span>
+	        				<span class="icon-bar"></span>
+	        				<span class="icon-bar"></span>
+	      				</button>
+	      				<span class="navbar-brand animated bounce">Nagesh Portfolio</span>
+	    			</div>
+				   <div class="collapse navbar-collapse" id="Navbar"> 
+					   <div class="container">
+					    	<ul class="nav navbar-nav navbar-right">
+					    		<li class="active"><a  href="#/home" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a></li>
+								<li><a  href="#/aboutme" data-toggle="collapse" data-target=".navbar-collapse.in">About Me</a></li>
+								<li><a  href="#/clients" data-toggle="collapse" data-target=".navbar-collapse.in">Clients</a></li>
+								<li><a  href="#/contactme" data-toggle="collapse" data-target=".navbar-collapse.in">Contact Me</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="main backimage">
+			<div class="container">
+
+				<ng-view autoscroll></ng-view>
+			</div>
+		</div>
+
+		<footer class="site-footer">
+			<div class="container">
+				<div class="text-center">
+						<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square fa-3x social"></i></a>
+		            	<a href="https://mailto:" target="_blank"><i class="fa fa-envelope-square fa-3x social"></i></a>
+		        </div>
+		    </div>
+		</footer>
+			
+	</body>
+	<!-- Module-->
+	<script type="text/javascript" src="js/app.js"></script>
+	<!-- Controller -->
+	<script type="text/javascript" src="js/controllers/homeController.js"></script>
+	<script type="text/javascript" src="js/controllers/aboutmeController.js"></script>
+	<script type="text/javascript" src="js/controllers/clientsController.js"></script>
+	<script type="text/javascript" src="js/controllers/contactmeController.js"></script>
+	<!--data-->
+	<script type="text/javascript" src="js/data.json"></script>
+	<script type="text/javascript" src="js/data1.json"></script>
+	<script type="text/javascript" src="js/contact-form.php"></script>
+</HTML>
